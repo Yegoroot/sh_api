@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "sections",
+  "collectionName": "types_articles",
   "info": {
-    "name": "section",
+    "name": "types",
     "description": ""
   },
   "options": {
@@ -17,10 +17,6 @@
     },
     "description": {
       "type": "text"
-    },
-    "categories": {
-      "via": "section",
-      "collection": "category"
     }
   }
 }

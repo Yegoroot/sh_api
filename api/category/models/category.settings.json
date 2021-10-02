@@ -23,8 +23,8 @@
       "type": "text"
     },
     "section": {
-      "model": "section",
-      "via": "categories"
+      "via": "categories",
+      "model": "section"
     }
   }
 }

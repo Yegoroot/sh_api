@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "articles",
   "info": {
-    "name": "articles",
+    "name": "article",
     "description": ""
   },
   "options": {
@@ -26,13 +26,8 @@
       "via": "articles",
       "model": "category"
     },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "type1",
-        "type2",
-        "type3"
-      ]
+    "types": {
+      "collection": "types-article"
     }
   }
 }
