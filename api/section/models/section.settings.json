@@ -16,11 +16,17 @@
       "type": "string"
     },
     "description": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "categories": {
       "via": "section",
       "collection": "category"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "required": true
     }
   }
 }

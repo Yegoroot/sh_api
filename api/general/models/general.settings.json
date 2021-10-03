@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "articles",
+  "kind": "singleType",
+  "collectionName": "generals",
   "info": {
-    "name": "article",
+    "name": "general",
     "description": ""
   },
   "options": {
@@ -16,19 +16,12 @@
       "type": "string",
       "required": true
     },
-    "text": {
-      "type": "richtext"
-    },
     "description": {
       "type": "text",
       "required": true
     },
-    "category": {
-      "via": "articles",
-      "model": "category"
-    },
-    "types": {
-      "collection": "types-article"
+    "contacts": {
+      "type": "json"
     }
   }
 }

@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "categories",
+  "kind": "singleType",
+  "collectionName": "abouts",
   "info": {
-    "name": "category",
+    "name": "about",
     "description": ""
   },
   "options": {
@@ -12,20 +12,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "articles": {
-      "via": "category",
-      "collection": "articles"
-    },
     "title": {
       "type": "string"
     },
     "description": {
       "type": "text",
+      "unique": false,
       "required": true
     },
-    "section": {
-      "via": "categories",
-      "model": "section"
+    "text": {
+      "type": "richtext"
+    },
+    "keywords": {
+      "type": "string"
     }
   }
 }
