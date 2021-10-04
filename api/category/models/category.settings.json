@@ -26,6 +26,11 @@
     "section": {
       "via": "categories",
       "model": "section"
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
