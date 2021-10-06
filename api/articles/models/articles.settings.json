@@ -29,6 +29,11 @@
     },
     "types": {
       "collection": "types-article"
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
